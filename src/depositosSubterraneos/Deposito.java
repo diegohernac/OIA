@@ -10,7 +10,7 @@ public class Deposito {
 		volumen=0;
 	}
 	
-	public Deposito(Integer superficie, Integer profundidad){
+	public Deposito(Integer profundidad, Integer superficie){
 		this.profundidad=profundidad;
 		this.superficie=superficie;
 		volumen=profundidad*superficie;
@@ -19,6 +19,13 @@ public class Deposito {
 	public Integer getVolumen(){
 		return volumen;
 	}
+
+	public Integer getProfundidad() {
+		return profundidad;
+	}
 	
+	public Integer getSupeficie(){
+		return superficie;
+	}
 	
 }
